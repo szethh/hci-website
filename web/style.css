@@ -154,3 +154,30 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+ .tab {
+  overflow: hidden;
+  border: 1px solid rgb(236, 169, 43);
+  background-color: #faa25b;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ffc7c7;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+} 
