@@ -7,5 +7,4 @@ services:
         image: crccheck/hello-world
         volumes:
             - ./web:/www
-        restart:
-            - unless-stopped
+        restart: unless-stopped
