@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+    bnuuy:
+        container_name: bnuuy
+        ports:
+            - '8000:8000'
+        image: crccheck/hello-world
+        volumes:
+            - ./web:/www
