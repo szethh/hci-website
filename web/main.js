@@ -34,4 +34,5 @@ $('.tablinks').click(function (e) {
 $(document).ready(function() {
     // activate the default one
     $('.tabcontent.default').css("display", "block");
+    $('span#year').text(new Date().getFullYear())
 });
