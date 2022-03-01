@@ -7,14 +7,14 @@ body {
 
 h1 {
   margin-top: 2px;
-  color: #8a9900;
+  color: #9bfc00;
   background-color: #FC9804;
   text-align: center;
   top: 5%;
 }
 
 h1 span {
-    color: #ff0505;
+    color: #ff0000;
 }
 
 p, td {
